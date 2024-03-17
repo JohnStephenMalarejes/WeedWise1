@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ManagementFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/btnSeeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Clean Seeds"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/grain"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick" />
+    <Button
+        android:id="@+id/btnSanitation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practice field sanitation"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/sanitation1"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick"/>
+    <Button
+        android:id="@+id/btnPreparation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practice through land preparation"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="start|center_vertical"
+        android:drawableLeft="@drawable/machine"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick"/>
+    <Button
+        android:id="@+id/btnManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practice good water management"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="start|center_vertical"
+        android:drawableLeft="@drawable/water"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick"/>
+    <Button
+        android:id="@+id/btnWeeding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do manual and mechanical weeding"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/hand"
+        android:textAppearance="@style/fontStyle"
+        android:gravity="start|center_vertical"
+        android:onClick="onButtonClick"/>
+    <Button
+        android:id="@+id/btnControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use biological control"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="start|center_vertical"
+        android:drawableLeft="@drawable/control1"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick"/>
+    <Button
+        android:id="@+id/btnHerbicides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Use Herbicides"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="start|center_vertical"
+        android:drawableLeft="@drawable/herb1"
+        android:textAppearance="@style/fontStyle"
+        android:onClick="onButtonClick"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

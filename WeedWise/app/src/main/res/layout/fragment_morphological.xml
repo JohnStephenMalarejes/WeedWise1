@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MorphologicalData.MorphologicalFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@color/tab_color"
+        android:text="A. Based on morphology"
+        android:textStyle="bold"
+        app:fontFamily="@font/manjari"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a. Grasses"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/manjari" />
+
+    <TextView
+        android:id="@+id/grass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/manjari" />
+
+    <TextView
+        android:id="@+id/grass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/manjari" />
+
+    <TextView
+        android:id="@+id/grass3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/manjari" />
+
+    <TextView
+        android:id="@+id/grass4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:text="?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:fontFamily="@font/manjari" />
+
+    <TextView
+        android:id="@+id/grass5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        app:fontFamily="@font/manjari"
+        android:textSize="20sp"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="b. Sedges"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:fontFamily="@font/manjari"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/sedges1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="?"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            app:fontFamily="@font/manjari"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sedges2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="?"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            app:fontFamily="@font/manjari"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sedges3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="?"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            app:fontFamily="@font/manjari"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/sedges4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="?"
+            android:textColor="@color/black"
+            android:paddingLeft="20dp"
+            app:fontFamily="@font/manjari"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="c. Broadleaves"
+                android:textColor="@color/black"
+                app:fontFamily="@font/manjari"
+                android:textStyle="bold"
+                android:textSize="22sp"/>
+            <TextView
+                android:id="@+id/broad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="?"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/broad2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="?"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/broad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="?"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/broad4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="?"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/broad5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:fontFamily="@font/manjari" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</FrameLayout>

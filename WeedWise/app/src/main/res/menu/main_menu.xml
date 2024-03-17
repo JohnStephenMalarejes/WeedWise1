@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/recognition"
+            android:title="Recognition"
+            android:icon="@drawable/ic_baseline_camera_24"/>
+        <item
+            android:id="@+id/species"
+            android:title="Weed Species"
+            android:icon="@drawable/weed"/>
+        <item
+            android:id="@+id/classification"
+            android:title="Classification"
+            android:icon="@drawable/classification"/>
+        <item
+            android:id="@+id/management"
+            android:title="Management Option"
+            android:icon="@drawable/manage"/>
+        <item
+            android:id="@+id/herbicides"
+            android:title="Herbicides List"
+            android:icon="@drawable/list"/>
+        <item
+            android:id="@+id/chat"
+            android:title="Weather"
+            android:icon="@drawable/weather"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="About WeedWise"
+            android:icon="@drawable/about"/>
+    </group>
+
+</menu>

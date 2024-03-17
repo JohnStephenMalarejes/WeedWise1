@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecognitionFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <TextView
+        android:id="@+id/reminderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="110dp"
+        android:paddingStart="15dp"
+        android:text="@string/reminder"
+        android:textColor="@color/white"
+        app:fontFamily="@font/manjari"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/disclaimerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/disclaimer"
+        app:fontFamily="@font/manjari"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="21sp"
+        android:text="CAMERA"
+        android:drawableLeft="@drawable/cam2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:fontFamily="@font/manjari"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center|start"/>
+    <Button
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start | center"
+        android:layout_marginLeft="16dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:text="GALLERY"
+        android:textColor="@color/white"
+        app:fontFamily="@font/manjari"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/gal2"
+        android:layout_marginTop="200dp"
+        android:textSize="21sp" />
+
+
+</FrameLayout>

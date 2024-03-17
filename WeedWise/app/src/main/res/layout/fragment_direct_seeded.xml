@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DirectSeededFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2, 4-D"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. 2, 4-D amine"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a. 2, 4-D IBE"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="annual sedges and broadleaves"
+                    android:textSize="20sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+                <Button
+                    android:id="@+id/btn_24d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="21-28 DAT at 1.0-1.5 L/ha" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bensulfuron methyl"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="broadleaves"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_bensulfuron"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="4-8 at 500-700 g/ha" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bentazon"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="perennial and annual sedges"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:fontFamily="@font/manjari" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari" />
+
+                <Button
+                    android:id="@+id/btn_bentazon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="weeds at 2 to10-leaf stage" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bispyribac sodium"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="annual grasses except L. chinensis,sedges, and broadleaves "
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    app:fontFamily="@font/manjari" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari" />
+
+                <Button
+                    android:id="@+id/btn_bispyribac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="20-35 das at 250 ml/ha" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Butachlor + Propanil"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="annual grasses, sedges and broadleaves"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_propanil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="6-10 at 1.5-2.0 L/ha" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fenoxaprop P- ethyl + ethoxysulfuron"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="annual grasses"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_fenoxaprop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="15-20 DAT at 500 ml/ha" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MCPA"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="annual grasses, sedges and some broadleaves"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_mcpa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="25-30 DAT at 1.0 L/ha" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Oxadiazon"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="grasses, sedges and broadleaves"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_oxadiazon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="3-5 DAT at 1.5-2.0 L/ha" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pretilachlor"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="grasses, sedges and broadleaves"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    app:fontFamily="@font/manjari"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application:"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/manjari"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/btn_pretilachlor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="0-3 DAT at 1.0 L/ha" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

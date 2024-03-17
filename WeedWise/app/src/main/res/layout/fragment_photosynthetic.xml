@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    tools:context=".MorphologicalData.PhotosyntheticFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="D. Based on Photosynthetic"
+                android:textColor="@color/tab_color"
+                android:textStyle="bold"
+                app:fontFamily="@font/manjari"
+                android:textSize="26sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. C3 Weeds"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:fontFamily="@font/manjari"
+                android:textSize="22sp"/>
+            <TextView
+                android:id="@+id/c3weeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="lorem ipsum"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. C4 weeds"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:fontFamily="@font/manjari"
+                android:textSize="22sp"/>
+            <TextView
+                android:id="@+id/c4weeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="loremm"
+                android:textColor="@color/black"
+                android:paddingLeft="20dp"
+                app:fontFamily="@font/manjari"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
